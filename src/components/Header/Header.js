@@ -161,7 +161,7 @@ const Header = () => {
     </Menu>
   );
     return (
-        <div style={{position:"sticky"}} className={classes.grow}>
+        <div className={classes.grow}>
       <AppBar position="sticky" style={{ background: 'rgba(252, 217, 172, 0.842)',color:'black',}} >
         <Toolbar>
           <IconButton
@@ -178,7 +178,7 @@ const Header = () => {
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
-            </div>
+            </div> 
             <InputBase
               placeholder="Search…"
               classes={{
