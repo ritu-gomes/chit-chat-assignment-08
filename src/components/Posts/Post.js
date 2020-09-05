@@ -15,7 +15,7 @@ const Post = () => {
     return (
         <Container maxWidth="md">
             {
-                posts.map(ps => <PostView posts={ps}></PostView>)
+                posts.map(ps => <PostView key={ps.id} posts={ps}></PostView>)
             }
         </Container>
     );

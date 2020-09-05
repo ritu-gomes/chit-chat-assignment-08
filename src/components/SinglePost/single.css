@@ -1,0 +1,7 @@
+.single-post{
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px 70px;
+    border: 1px solid lightcoral;
+    background: linear-gradient(to bottom right, rgba(252, 151, 151, 0.932), rgba(253, 178, 178, 0.842));
+}

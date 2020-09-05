@@ -162,7 +162,7 @@ const Header = () => {
   );
     return (
         <div style={{position:"sticky"}} className={classes.grow}>
-      <AppBar style={{ background: 'rgba(252, 217, 172, 0.842)',color:'black',}} position="sticky" >
+      <AppBar position="sticky" style={{ background: 'rgba(252, 217, 172, 0.842)',color:'black',}} >
         <Toolbar>
           <IconButton
             edge="start"
